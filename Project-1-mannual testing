@@ -1,1 +1,80 @@
+Manual testing is a software testing process in which a tester executes test cases without using automation tools.
+The primary purpose of manual testing = to ensure that the application is bug-free, stable, and user-friendly before release
 
+Manual testing is performed at various levels—unit, integration, system, and acceptance testing.
+It is commonly used for exploratory testing, ad-hoc testing, and UI/UX validation, where human judgment is essential.
+
+A study by the IBM System Sciences Institute found that = " the cost to fix a bug found during the implementation phase is 6x more than one identified during design. 
+Catching these issues early through manual exploration is cost-effective".
+
+Exploratory and Ad-hoc Testing: This unscripted testing relies on tester skill and creativity to find edge-case defects that scripted tests would miss.
+
+Bug Identification – Detecting functional, logical, or design defects before release.
+Requirement Validation – Verifying that the application meets both functional and non-functional specifications.
+User Experience Assurance – Testing from an end-user perspective to confirm that workflows are intuitive and error-free.
+Regression Confidence – Retesting fixed defects to ensure new changes do not break existing functionality.
+Quality Delivery – Delivering a stable, reliable, and bug-free product to customers.
+
+Ultimately, manual testing aims to balance quality, reliability, and usability, ensuring the software is production-ready and aligned with business objectives.
+
+Primary Manual Testing Types
+
+Black Box Testing :
+validate the software without any knowledge of the internal code or structure.
+Focused on end-user perspective
+used for functional testing like login, checkout, or form submission.
+Useful for acceptance, regression, and system testing.
+
+White Box Testing / clear box testing / glass box testing:
+Testing requires access to source code, algorithms, and design details. (PERFORMED BY developers or highly technical testers)
+focuses on the internal structure and logic of the software. 
+white box testing is often performed by developers or highly technical testers, making it ideal for unit testing and security audits.
+
+Grey Box Testing :
+hybrid approach that combines the strengths of both black box and white box testing.
+Effective for security testing, API validation, and workflow testing.
+
+Other Manual Testing Types
+
+Unit Testing:
+focuses on verifying individual components, methods, or small code units separately.
+
+System Testing
+System Testing in manual testing examines the complete, integrated application as a whole. 
+Testers simulate real-world user actions to confirm that all combined modules work seamlessly together.
+This testing ensures usability, performance, and business logic correctness. 
+
+Integration Testing
+Integration Testing in manual testing validates the interaction between multiple modules or systems. 
+
+Acceptance Testing
+Acceptance Testing in manual testing confirms whether the entire application meets business expectations and customer requirements.
+End-users, stakeholders, or testers verify real-life scenarios like workflows, usability, and reliability before product release. 
+Types include Alpha Testing (internal) and Beta Testing (external). 
+Manual acceptance ensures the product offers a satisfactory experience and is ready for actual market use.
+
+How to perform Manual Testing (MAIN STEPTS )
+
+Step 1) Requirement Analysis
+The tester reviews requirement documents, use cases, and user stories 
+
+Step 2) Test Plan Creation
+This document, often called a test strategy, outlines the scope, objectives, resources, schedule, and overall approach for testing.
+It acts as a blueprint for the entire testing effort.
+
+Step 3) Test Case Development
+Testers write detailed, step-by-step test cases with clear preconditions, test data, execution steps, and expected results.
+These cases are designed to validate all requirements.
+
+Step 4) Test Environment Setup
+A dedicated staging environment that mimics production is configured. 
+This includes setting up servers, databases, and test data to ensure accurate and isolated testing.
+
+Step 5) Test Execution and Bug Reporting
+Testers execute the designed test cases. 
+Any discrepancy between actual and expected results is logged as a defect in a tracking tool like Jira. 
+A good bug report is clear, concise, and reproducible.
+
+Step 6) Final Reporting and Analysis
+After a testing cycle, a test summary report is generated.
+It provides stakeholders with metrics like test coverage, pass/fail rates, and defect density, offering a clear view of the software’s quality.
