@@ -1,0 +1,21 @@
+Verification: 
+Ensures the product is being built correctly according to specifications.
+= “Are we building the product right?”
+Focus	= Process & design
+Performed by	Developers, QA team
+Techniques	Reviews, inspections, walkthroughs
+Timing	= During development
+Goal	=  Conformance to requirements
+Checking that the login page code follows the design document
+example = username field accepts only alphanumeric input.
+
+
+Validation:
+Ensures the product meets the user’s needs and expectations. 
+= “Are we building the right product?”
+Focus= Final product & user needs
+Performed by = End users, testers
+Techniques = Functional testing, UAT (User Acceptance Testing)
+Timing = After development, before release
+Goal = Suitability for intended use.
+example = Testing that users can successfully log in and access their dashboard as expected.
