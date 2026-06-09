@@ -1,0 +1,97 @@
+Notes on Error vs Defect vs Bug
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. ERROR
+
+An Error is a mistake made by a human (developer, designer, analyst, etc.) during requirement analysis, design, or coding.
+Human makes a mistake = Error
+Who creates it? 
+Developer/Designer/Business Analyst/
+
+SDLC Stage: Requirements: Design Coding
+
+Examples of Error
+Example 1 : in JavaScript
+total = price - tax;
+Developer mistakenly used - instead of +.
+Correct:
+JavaScript
+total = price + tax;
+Example 2
+Requirement says:
+Password must contain 8 characters.
+Developer reads it as:
+Password must contain 6 characters.
+This misunderstanding is an Error.
+Example 3
+Developer writes:
+JavaScript
+if(age > 18)
+Instead of:
+JavaScript
+if(age >= 18)
+18-year-old users are wrongly rejected.
+
+2. DEFECT
+
+A Defect is a mismatch between the Expected Result and the Actual Result found during testing.
+Tester finds a problem = Defect
+Who finds it?
+Tester or QA Engineer
+SDLC Stage : Testing Phase
+Examples of Defect
+Example 1
+Expected: User can login with valid username and password.
+Actual: System shows "Invalid Credentials".
+Result:  Defect Found
+Example 2
+Expected:
+Clicking "Add to Cart" adds product.
+Actual:
+Nothing happens.
+Result:  Defect Found
+Example 3
+Expected:
+Total price = ₹1000
+Actual:
+Total price = ₹900
+Result:  Defect Found
+
+3. BUG
+A Bug is a Defect that has been reported, logged, and accepted by the development team for fixing.
+Defect reported in Jira/Bugzilla/Azure DevOps = Bug
+Who creates/logs it?
+Tester logs it
+Developer accepts it
+SDLC Stage: Bug Tracking Process
+Examples of Bug
+Example 1
+Tester finds:
+Login fails with valid credentials.
+Bug logged:
+
+Bug ID: 101
+Title: Login not working with valid credentials
+Example 2
+Tester finds:
+Search button crashes application.
+Bug logged:
+
+Bug ID: 102
+Title: Search page crash
+Example 3
+Tester finds:
+Cart total calculation is wrong.
+Bug logged:
+
+Bug ID: 103
+Title: Incorrect cart calculation
+Relationship Between Error, Defect, and Bug
+Real-Life Flow
+Developer makes a mistake ↓
+Error occurs ↓
+Tester finds the issue ↓
+Defect is identified ↓
+Defect is logged in Jira ↓
+It becomes a Bug ↓
+Developer fixes it
