@@ -1,0 +1,32 @@
+Exploratory Testing 
+
+
+Example 1
+
+Date/Time: 10 June 2026, 11: 30pm
+Tester: Prashant jadhav
+Feature/Area: Multi-tab browsing – scientific reference (Wikispecies) 
+Environment: Windows 11, Edge v149.0.4022.52
+
+Charter (Focus):
+Explore usability and accuracy when switching between a scientific taxonomy page (Purnella albifrons) and a general search tab.
+
+Test Ideas & Scenarios Tried:
+
+1) Opened Wikispecies page for Purnella albifrons and checked taxonomy details.
+2) Switched to Bing search tab with “Wikipedia – Search” results.
+3) Compared navigation speed between the two tabs.
+4) Zoomed in/out on Wikispecies page to test layout stability.
+5) Tried opening external links from Wikispecies page in new tabs.
+
+Observations
+Wikispecies page loads quickly, but taxonomy tables overlap slightly at 125% zoom.
+Switching between tabs is smooth, though occasional flicker occurs when moving from Bing search back to Wikispecies.
+External links open correctly but lack clear indication they lead outside the Wikispecies domain.
+Search tab remains responsive, but results page refreshes unexpectedly after prolonged idle time.
+
+Issues Found
+Bug #001: Layout overlap at zoom 120% on Wikispecies taxonomy tables.
+Bug #002: Tab flicker when switching from Bing search to Wikispecies.
+Bug #003: External link usability issue (no indicator for external navigation).
+Bug #004: Bing search tab refreshes unexpectedly after idle.
