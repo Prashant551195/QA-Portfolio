@@ -1,0 +1,13 @@
+import { test, expect } from '@playwright/test';
+
+test('URL and title match on GitHub page', async ({ page }) => {
+  // Navigate to the target URL
+  await page.goto('https://github.com/Prashant551195/QA-Portfolio/new/main');
+
+  // Verify the URL
+  await expect(page).toHaveURL('https://github.com/Prashant551195/QA-Portfolio/new/main');
+
+  // Verify the page title contains expected text
+  const title = await page.title();
+  expect(title).toContain('New File at / · Prashant551195/QA-Portfolio');
+});
