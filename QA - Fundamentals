@@ -70,3 +70,19 @@ Failure = bug that escaped all testing stages
 ## Bug Effect
 - Deviation impacting results and affecting user experience
 - Bug detector = anyone who finds the bug after development
+
+### Recommended QA Practices:
+- Shift-left testing (involve QA early)
+- Risk-based testing
+- Traceability matrix (requirements ↔ test cases)
+- Root cause analysis for every escaped bug
+- Automate regression, not chaos
+- Non-functional testing (performance, security, usability)
+
+### Common Bug Categories:
+- Functional errors
+- UI/UX issues
+- Performance bottlenecks
+- Integration failures
+- Security vulnerabilities
+- Configuration/environment issues
