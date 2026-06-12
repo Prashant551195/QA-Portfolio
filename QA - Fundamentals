@@ -1,0 +1,72 @@
+QA - Fundamentals
+________________________________________
+
+Software : A collection of compluter programm which helps to perform a task.
+    ### Types of Software      types = 3
+     1) System Software      : Runs hardware & basic system .
+                               Eg: OS, Device drivers, Servers, Utilities
+     2) Programming software ; Tools for developers .
+                               eg: Compiler, Debugger, Interpreter
+     3) Application software ; End-user focused .
+                               eg: Web app, Mobile app, Desktop app 
+
+
+## Why Do Software Bugs Exist?
+
+- Miscommunication or no shared vision
+- Software complexity (unexpected interactions)
+- Programming errors (logic, syntax, concurrency)
+- Changing requirements (moving targets)
+- Lack of skilled feedback during design & code reviews
+- *Unclear acceptance criteria*
+- *Time pressure & technical debt*
+- *Incomplete test coverage*
+
+Testing must consider: 
+device fragmentation, OS versions, screen sizes, network conditions
+
+Software Testing – Core Purpose
+Final Testing → Find defects/bugs → Release quality product → Satisfy client
+
+### ✅ Quality Software Means:
+- Delivered **on time**
+- Within **budget**
+- Meets **requirements** & is **acceptable** to users
+- **Maintainable** over time
+
+## 📦 Project vs Product
+
+Project
+Specific customer 
+Direct client requirements 
+Projects end after delivery
+Example : Custom ERP for a bank.
+
+Product
+Multiple customers 
+Market requirements
+products evolve with continuous testing & feedback loops
+Example : Gmail, Slack, WhatsApp .
+
+
+## 🔁 Bug Lifecycle (Simple View)
+
+Bug fix flow :::
+`Development → Debugging → Testing → Release`
+
+### Bug detection timing:
+- Found **after development** (by testers)
+- Found **after release** (by end users → then it's a failure)
+
+## ❌ Failure Definition
+A **deviation** identified by an **end user** in production.
+The product is **not working as expected**.
+Failure = bug that escaped all testing stages
+
+## 🧠 Human Error in Testing & Development
+-**Human error** → leads to **poor design decisions**
+-Also includes: unclear logs, missing edge cases, wrong test data*
+
+## Bug Effect
+- Deviation impacting results and affecting user experience
+- Bug detector = anyone who finds the bug after development
