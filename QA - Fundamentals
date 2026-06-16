@@ -86,3 +86,20 @@ Failure = bug that escaped all testing stages
 - Integration failures
 - Security vulnerabilities
 - Configuration/environment issues
+
+##  Manual Testing Lifecycle Covered
+
+- Understanding & Exploring the Functionality 
+- Test Plan
+- Writing Test Scenarios
+- Writing Test Cases & Reviews
+- Environment Setup & Build Deployment
+- Test Execution
+- Bug Reporting & Tracking
+- Sanity Testing, Re-Testing & Regression Testing
+- Test Sign-off
+
+
+
+
+
