@@ -1,0 +1,41 @@
+SDLC software development lifecycle (SDLC)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SDLC is a structured process used for developing software efficiently and with high quality. It defines stages from planning to deployment and maintenance.
+
+The software development lifecycle (SDLC) is the cost-effective and time-efficient process that development teams use to design and build high-quality software. 
+The goal of SDLC is to minimize project risks through forward planning so that software meets customer expectations during production and beyond.
+This methodology outlines a series of steps that divide the software development process into tasks you can assign, complete, and measure.
+
+Phases of SDLC
+6 phases
+
+1 Requirement Analysis:
+Gather and document user needs.
+
+2 System Design :
+Create architecture, data flow, and interface design.
+
+3 Implementation (Coding) :
+Developers write code based on design documents.
+
+4 Testing:
+Verify that the software meets requirements and is bug-free.
+
+5 Deployment :
+Release the product to users or production environment.
+
+6 Maintenance :
+Fix issues, update features, and ensure long-term performance.
+
+
+
+Benefits of SDLC:
+Increased visibility of the development process for all stakeholders involved.
+Efficient estimation, planning, and scheduling.
+Improved risk management and cost estimation.
+Systematic software delivery and better customer satisfaction.
+
+
+
+
