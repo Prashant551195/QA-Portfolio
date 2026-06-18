@@ -28,3 +28,120 @@ Test Execution – Run test cases and log defects.
 Defect Reporting & Tracking – Communicate issues to developers.
 Test Closure – Evaluate test results, prepare reports, and lessons learned.
 Goal: Ensure the software is bug-free and meets quality standards.
+
+
+
+Phases of SDLC
+Requirement Analysis
+Gather requirements from stakeholders.
+Document functional and non-functional needs.
+Output: Software Requirement Specification (SRS).
+
+Planning
+Define scope, resources, cost, and timeline.
+Risk analysis and feasibility study.
+Output: Project plan.
+
+Design
+High-level design (architecture).
+Low-level design (modules, database schema).
+Output: Design Document.
+
+Development (Coding)
+
+Actual implementation of the design.
+
+Developers write code in chosen programming language.
+
+Output: Source code.
+
+Testing
+
+Verify software against requirements.
+
+Includes unit, integration, system, and acceptance testing.
+
+Output: Tested software.
+
+Deployment
+
+Release software to production environment.
+
+May include beta release, pilot testing.
+
+Output: Working product.
+
+Maintenance
+
+Bug fixes, updates, enhancements.
+
+Continuous support and monitoring.
+
+Output: Stable, improved system.
+
+🧪 Software Testing Life Cycle (STLC)
+Definition:  
+STLC is a sequence of activities performed by the QA/testing team to ensure software quality. It runs parallel to SDLC but focuses only on testing aspects.
+
+📌 Phases of STLC
+Requirement Analysis
+
+Understand testable requirements from SRS.
+
+Identify test objectives and scope.
+
+Output: Requirement Traceability Matrix (RTM).
+
+Test Planning
+
+Define testing strategy, tools, resources, and schedule.
+
+Risk analysis for testing.
+
+Output: Test Plan document.
+
+Test Case Development
+
+Write detailed test cases and test scripts.
+
+Prepare test data.
+
+Output: Test cases/test data.
+
+Test Environment Setup
+
+Configure hardware/software for testing.
+
+Ensure test environment is ready.
+
+Output: Test environment.
+
+Test Execution
+
+Run test cases.
+
+Log defects in defect tracking tool.
+
+Output: Test execution report.
+
+Defect Reporting & Tracking
+
+Report bugs to developers.
+
+Track defect status until closure.
+
+Output: Defect logs.
+
+Test Closure
+
+Evaluate test completion criteria.
+
+Prepare test summary report.
+
+Output: Test closure report.
+
+
+
+
+
+
