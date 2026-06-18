@@ -1,0 +1,30 @@
+SDLC (Software Development Life Cycle) and STLC (Software Testing Life Cycle) 
+______________________________________________________________________________________________________________
+
+SDLC (Software Development Life Cycle)
+
+Definition: A structured process followed to design, develop, test, and deploy software.
+Phases:
+Requirement Analysis – Gather and document user needs.
+Planning – Define scope, resources, timelines, and risks.
+Design – Create system architecture and detailed design.
+Development – Actual coding of the software.
+Testing – Verify functionality, performance, and quality.
+Deployment – Release software to production.
+Maintenance – Bug fixes, updates, and enhancements.
+Goal: Deliver high-quality software that meets customer requirements.
+
+
+
+STLC (Software Testing Life Cycle)
+
+Definition: A sequence of activities performed during testing to ensure software quality.
+Phases:
+Requirement Analysis – Understand what needs to be tested.
+Test Planning – Define strategy, scope, resources, and schedule.
+Test Case Development – Write test cases and prepare test data.
+Test Environment Setup – Configure hardware/software for testing.
+Test Execution – Run test cases and log defects.
+Defect Reporting & Tracking – Communicate issues to developers.
+Test Closure – Evaluate test results, prepare reports, and lessons learned.
+Goal: Ensure the software is bug-free and meets quality standards.
