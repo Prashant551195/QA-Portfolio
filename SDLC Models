@@ -1,0 +1,23 @@
+SDLC Models
+__________________________________________________________________________________________________________________________
+
+3 MODELS are popular among the SDLC.
+
+1) Waterfall Model
+2) Spiral Model
+3) V or V V Model (Varification and validation model)
+
+-----------------------------
+1) Waterfall Model
+
+The Waterfall Model is a linear, sequential approach to software development. 
+Each phase must be completed before moving to the next.
+Resembling a "waterfall" flow.
+
+Phases
+1 Requirement Analysis
+2 System Design
+3 Implementation
+4 Testing
+5 Deployment
+6 Maintenance
