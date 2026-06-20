@@ -21,3 +21,16 @@ Phases
 4 Testing
 5 Deployment
 6 Maintenance
+
+✅ Advantages
+High product quality due to structured phases.Ensure thorough documentation and clarity.
+Reduced bugs since requirement changes are not allowed./ Since requirements are fixed, fewer chances of scope creep.
+Lower initial investment as Testers are hired later in the cycle.
+Best for small projects with fixed requirements. Works well when requirements are stable and clearly defined.
+
+❌ Disadvantages
+No Requirement Changes – Inflexible once the process starts.
+Defect Propagation – Errors in requirements carry forward into later stages.
+High Rework Cost – Fixing defects late in the cycle is expensive.
+Late Testing – Testing begins only after coding, delaying defect detection.
+
