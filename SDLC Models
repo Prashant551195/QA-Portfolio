@@ -46,3 +46,21 @@ Planning
 Risk Analysis
 Engineering & Execution
 Evaluation
+
+✅ Advantages
+Testing in every cycle before moving to the next.
+Customer feedback after each module.
+Requirement changes allowed after every cycle.
+
+❌ Disadvantages
+No mid-cycle changes allowed.
+Each cycle resembles the Waterfall Model.
+No testing in requirement & design phases.
+_________________________________________________________________________________________
+
+🔹 Prototype 
+A Prototype acts as a blueprint of the software.
+Flow: Initial requirements → Prototype → Customer feedback → Design → Coding → Testing.
+
+Prototype Spiral Model
+Stages include: Requirement Analysis → Prototype → Development & Testing → Customer Evaluation.
