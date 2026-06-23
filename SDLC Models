@@ -64,3 +64,25 @@ Flow: Initial requirements → Prototype → Customer feedback → Design → Co
 
 Prototype Spiral Model
 Stages include: Requirement Analysis → Prototype → Development & Testing → Customer Evaluation.
+
+___________________________________________________________________________________________
+
+3) V-Model in Software Development
+
+The V-Model is a structured approach to the Software Development Life Cycle. 
+Unlike the linear Waterfall Model, the V-Model integrates verification and validation activities alongside each development phase.
+This ensures that errors are caught early and requirements are continuously checked against deliverables. 
+
+🏗️ Phases of the V-Model
+
+🔹 Verification (Left Side of V)
+Business Requirement Analysis → Defines customer needs, acceptance test planning.
+System Design → High-level design of the system.
+Architectural Design → High-Level Design (HLD), module interactions defined.
+Module Design → Low-Level Design (LLD), detailed specifications for each module.
+
+🔹 Validation (Right Side of V)
+Unit Testing → Validates module design.
+Integration Testing → Validates architectural design.
+System Testing → Validates system design.
+Acceptance Testing → Validates business requirements. 
