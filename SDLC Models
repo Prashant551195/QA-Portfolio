@@ -86,3 +86,13 @@ Unit Testing → Validates module design.
 Integration Testing → Validates architectural design.
 System Testing → Validates system design.
 Acceptance Testing → Validates business requirements. 
+
+✅ Advantages
+Early defect detection due to parallel testing.
+High reliability for safety-critical projects (medical, automotive, aerospace).
+Clear structure with strong documentation.
+
+❌ Disadvantages
+Rigid process → Requirement changes are costly.
+High documentation overhead.
+Not suitable for small or rapidly changing projects.
