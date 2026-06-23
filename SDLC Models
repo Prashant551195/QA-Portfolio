@@ -3,11 +3,10 @@ ________________________________________________________________________________
 
 3 MODELS are popular among the SDLC.
 
-1) Waterfall Model
-2) Spiral Model
-3) V or V V Model (Varification and validation model)
-
------------------------------
+1) Waterfall Model – Linear, sequential approach.
+2) Spiral Model – Iterative, risk-driven approach.
+3) V-Model – Verification ↔ Validation mapping.
+-----------------------------------------------------------------------------------------------------
 1) Waterfall Model
 
 The Waterfall Model is a linear, sequential approach to software development. 
@@ -76,12 +75,16 @@ This ensures that errors are caught early and requirements are continuously chec
 🏗️ Phases of the V-Model
 
 🔹 Verification (Left Side of V)
+Ensures we are building the right product.
+Focuses on documentation, reviews, walkthroughs, inspections.
 Business Requirement Analysis → Defines customer needs, acceptance test planning.
 System Design → High-level design of the system.
 Architectural Design → High-Level Design (HLD), module interactions defined.
 Module Design → Low-Level Design (LLD), detailed specifications for each module.
 
 🔹 Validation (Right Side of V)
+Ensures we are building the product right. 
+Focuses on actual software testing (unit, integration, system, UAT).
 Unit Testing → Validates module design.
 Integration Testing → Validates architectural design.
 System Testing → Validates system design.
@@ -96,3 +99,42 @@ Clear structure with strong documentation.
 Rigid process → Requirement changes are costly.
 High documentation overhead.
 Not suitable for small or rapidly changing projects.
+________________________________________________________________________________
+
+Static Testing – 
+Testing project-related documents (reviews, walkthroughs, inspections).
+
+Dynamic Testing – 
+Testing the actual software (unit, integration, system, UAT).
+
+🔑 Types of Testing
+Unit Testing – Testing individual modules/components.
+Integration Testing – Ensuring modules work together.
+System Testing – End-to-end testing of the complete system.
+UAT – Final validation by end-users before release.
+
+Difference between QA and QC
+– QA is process-oriented,
+- QC is product-oriented.
+
+Bug vs Defect
+– Bug is found during testing, 
+- defect is deviation from requirements.
+
+Smoke vs Sanity Testing
+Smoke = basic build verification, 
+Sanity = narrow regression check.
+
+Regression Testing 
+Ensures new changes don’t break existing functionality.
+
+Functional vs Non-Functional Testing 
+Functional = features,
+Non-functional = performance,
+security, usability.
+
+Agile Testing – Continuous testing in iterative sprints.
+
+Test Plan vs Test Strategy – 
+Plan = project-specific,
+Strategy = organization-level approach.
