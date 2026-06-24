@@ -1,4 +1,4 @@
-SDLC Models
+7SDLC Models
 __________________________________________________________________________________________________________________________
 
 3 MODELS are popular among the SDLC.
@@ -138,3 +138,9 @@ Agile Testing – Continuous testing in iterative sprints.
 Test Plan vs Test Strategy – 
 Plan = project-specific,
 Strategy = organization-level approach.
+we will analyze both strands of the V model to see how they work in parallel.
+
+Requirement Analysis/Gathering: This is the main activity where requirements are collected and analyzed. In this phase, the focus is not on the implementation of the system but rather discovering how the system is supposed to perform or behave according to user expectations. As introduced earlier, verification and validation go hand-in-hand, and in the requirement analysis phase, the reviews come under the verification process, and the creation of UAT comes under the validation process.
+SRS: In the next step, the SRS document is reviewed by the test team. Any defects identified during the inspection, walkthrough, or desk checking, can then be rectified.
+System Design: During this phase, gathered requirements are studied for the purpose of implementation. Technical feasibility and dependency are also measured at this point. For verification purposes, testers review the design document and on the basis of this assessment, create a system test plan to enable validation.
+System Architecture: This phase is where software architecture is created. All the details of tools and technologies are finalized, to include diagrams, databases, dependencies, and so on. Documents are reviewed for
