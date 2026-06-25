@@ -1,0 +1,46 @@
+# Software Testing Notes – Core Concepts
+
+A concise reference guide covering essential software testing terminology, defect tracking, and testing strategies.
+
+---
+
+## 📌 1. Functional vs Non-Functional Requirements
+
+| Type | Definition | Examples |
+|------|------------|----------|
+| **Functional Requirements** | Specify **what** the system **should do** (features & behaviors). | Authentication, Business rules, Legal/Regulatory compliance, External interfaces, Historical data handling. |
+| **Non-Functional Requirements** | Specify **how** the system **should be** (quality attributes). | Performance, Reliability, Security, Usability, Recovery, Data Integrity. |
+
+---
+
+## 📌 2. Severity vs Priority
+
+| **Severity** | **Priority** |
+|--------------|--------------|
+| How serious the defect is (technical impact). | How urgently the defect must be fixed (business impact). |
+| **Application-centric** (tester’s view). | **User-centric** (customer/business view). |
+| Based on functionality deviation. | Based on customer requirements & release timelines. |
+
+---
+
+## 📌 3. Types of Severity
+
+| Severity Level | Description |
+|----------------|-------------|
+| **Low** | UI / cosmetic defects. |
+| **Medium** | Boundary-related errors, error-handling flaws. |
+| **High** | Calculation errors, data misinterpretation, hardware failures, compatibility issues, control-flow bugs, load/performance problems. |
+
+---
+
+## 📌 4. Severity-Priority Combinations (with Examples)
+
+| Combination | Example |
+|-------------|---------|
+| **High Severity, Low Priority** | App crashes when clicking a rarely used remote link. |
+| **High Severity, High Priority** | App crashes during normal usage (showstopper). |
+| **Low Severity, High Priority** | Company name misspelled on the homepage. |
+| **Low Severity, Low Priority** | Minor UI glitch or unclear error message. |
+
+---
+
