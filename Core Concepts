@@ -44,3 +44,51 @@ A concise reference guide covering essential software testing terminology, defec
 
 ---
 
+## 📌 5. Defect Severity – Definition
+
+> **Defect Severity** is the classification of a defect based on its **impact on the product's operation**.  
+> A defect is any anomaly or flaw that deviates from the desired product specification.
+
+---
+
+## 📌 6. Bucket Testing (A/B Testing)
+
+- Running **two simultaneous versions** of a webpage to compare performance.
+- Used to measure differences in:
+  - Click-through rates
+  - User engagement
+  - Conversion metrics
+- Helps in data-driven design decisions.
+
+---
+
+## 📌 7. Entry and Exit Criteria
+
+| Criteria | Definition | Examples |
+|----------|------------|----------|
+| **Entry Criteria** | Conditions that must be met **before testing starts**. | SRS, FRS, Use cases, Test cases, Test plan. |
+| **Exit Criteria** | Conditions that confirm **testing is complete** and release is ready. | Test Summary Report, Metrics, Defect Analysis Report. |
+
+---
+
+## 📌 8. Concurrency Testing (Multi-User Testing)
+
+- Testing the system with **multiple users accessing simultaneously**.
+- Helps identify:
+  - Response time delays
+  - Locking issues
+  - Deadlocks
+- Also known as **Multi-User Testing**.
+
+---
+
+## 📚 Summary in short way
+
+- **Functional** = *what* the system does  
+- **Non-Functional** = *how* the system performs  
+- **Severity** = technical seriousness  
+- **Priority** = business urgency  
+- **Entry** = readiness to start testing  
+- **Exit** = readiness to release  
+- **A/B Testing** = compare two versions  
+- **Concurrency Testing** = test multi-user behavior
