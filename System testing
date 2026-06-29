@@ -1,0 +1,17 @@
+System Testing
+____________________________________________________________________________________________________________________
+
+For system testing-- several environments are used:
+QA environment, QC environment, UAT environment, TEsting environment, , own environment where we Test.
+
+
+- It checks the overall functionality of an application with respect to customer requirements.
+- System Testing is performed after Integration Testing.
+
+System Testing mainly focuses on 4 main areas:  
+GUI Testing
+Usability Testing
+Functional Testing*
+Non-Functional Testing
+
+*out of this funtionla testing is crucial and important testing area
