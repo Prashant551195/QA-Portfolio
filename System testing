@@ -57,6 +57,26 @@ Load Testing – Behavior under expected traffic.
 Stress Testing – Extreme workload handling.
 Security Testing – Vulnerability checks.
 
+System testing involves functional and non-functional areas of application/product.
+It mainly focuses on:
+External interfaces
+Multiprogram and complex functionalities
+Security
+Recovery
+Performance
+Operator and user’s smooth interaction with the system
+Installability
+Documentation
+Usability
+Load/Stress
+
+Why System Testing
+#1) It is very important to complete a full test cycle and ST is the stage where it is done.
+#2) ST is performed in an environment that is similar to the production environment and hence stakeholders can get a good idea of the user’s reaction.
+#3) It helps to minimize after-deployment troubleshooting and support calls.
+#4) In this STLC stage, Application Architecture, and Business requirements both are tested.
+
+This testing is very important, and it plays a significant role in delivering a quality product to the customer.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 GUI testing     /   Graphical User-interface Testing    /
