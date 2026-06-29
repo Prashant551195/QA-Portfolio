@@ -1,9 +1,31 @@
+Levels of Software Testing
+
+ White box test (covers code)
+    Unit Testing
+    Integration Testing
+
+Black box test
+    System Testing 
+    UAT Testing → Functionality test with respect to customer
+
+As a Tester
+1 Understand the requirement
+2 Prepare the test plan
+3 Write the test cases
+4 Execute the test cases
+5 Find the defects
+6 Report the defects
+7 Prepare the test execution report
+
+------------------------------------------------------------
+
 System Testing
 ____________________________________________________________________________________________________________________
+System Testing is a high-level testing phase performed after integration testing and before acceptance testing. 
+It ensures the complete system works as intended in a production-like environment.
 
 For system testing-- several environments are used:
 QA environment, QC environment, UAT environment, TEsting environment, , own environment where we Test.
-
 
 - It checks the overall functionality of an application with respect to customer requirements.
 - System Testing is performed after Integration Testing.
@@ -15,3 +37,26 @@ Functional Testing*
 Non-Functional Testing
 
 *out of this funtionla testing is crucial and important testing area
+
+
+Key Objectives
+Functional verification – Confirm all features meet requirements.
+Non-functional validation – Check performance, security, usability, and reliability.
+End-to-end workflow – Validate business processes across modules.
+
+Process
+Test Environment Setup – Hardware, software, and network mimic production.
+Test Case Design – Based on system requirements.
+Execution & Defect Reporting – Compare actual vs expected outcomes.
+Regression Testing – Ensure fixes don’t break existing functionality.
+Retesting – Verify defect resolution.
+
+Types of System Testing
+Performance Testing – Speed & responsiveness.
+Load Testing – Behavior under expected traffic.
+Stress Testing – Extreme workload handling.
+Security Testing – Vulnerability checks.
+
+
+
+
