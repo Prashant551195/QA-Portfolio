@@ -107,4 +107,45 @@ Testing of the color of the hyperlink
 Testing UI Elements like button, textbox, text area, check box, radio buttons, drop downs, links etc.
 
 
+_______________
+
+1. Introduction to Functional Testing
+
+​Functional Testing is a key subset of System Testing, alongside GUI Testing, Usability Testing, and Non-Functional Testing.
+• ​Definition: Functionality refers to the behavior of the application.
+• ​Core Concept: Functional testing focuses specifically on how your features should work based on user requirements.
+​
+2. Core Functional Testing Components
+
+​functional testing comprises six core areas.
+The details for each are expanded below:
+
+​A. Object Properties Testing
+• ​Purpose: Check the properties of objects present on the application interface.
+• ​Examples of what to verify: Whether UI elements are enabled, disabled, visible, or have focus appropriately.
+
+
+​B. Database Testing / Backend Testing
+• ​Data Manipulation Language (DML) Operations: Verifying backend actions including INSERT, UPDATE, DELETE, and SELECT.
+• ​Table & Column Level Validations: Checking column types, column length, and the total number of columns .
+• ​Schema & Relational Integrity: Validating the relationship between tables, including database Normalization.
+• ​Database Objects: Testing database-specific programming elements such as Functions, Procedures, Triggers, Indexes, and Views.
+
+​C. Error Handling Testing
+• ​Objective: Testers verify that the application properly displays error messages when incorrect actions or inputs occur .
+•  ​Requirements for Error Messages:
+◦ ​Must be readable and written in user-understandable/simple language.
+◦ ​Should handle specific conditions like Incorrect data and an Invalid user login attempt.
+
+​D. Calculations / Manipulations Testing
+• ​Objective: The tester should explicitly verify all calculation logic and mathematical rules executed within the application.
+
+​E. Links (Existence & Execution) Testing
+• ​Links Existence: Verifying where exactly the links are placed visually on the web page.
+• ​Links Execution: Checking if clicking the links navigates the user to the correct, intended page .
+• ​Types of Links to Test: Internal links, external links, and searching for any broken links .
+
+​F. Cookies & Sessions Testing
+• ​Cookies: Verifying the temporary files created by the web browser while a user browses pages on the internet .
+• ​Sessions: Validating time slots created by the server. Testing must verify that a session properly expires after a period of idle time (if a user is idle for some time).
 
