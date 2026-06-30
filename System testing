@@ -149,3 +149,34 @@ The details for each are expanded below:
 • ​Cookies: Verifying the temporary files created by the web browser while a user browses pages on the internet .
 • ​Sessions: Validating time slots created by the server. Testing must verify that a session properly expires after a period of idle time (if a user is idle for some time).
 
+​3. Non-Functional Testing Components
+​Non-functional testing shifts the focus away from behavior to evaluate operational characteristics.
+
+​A. Performance Testing
+​Focuses on evaluating the overall speed and stability of the application.
+• ​Load Testing: Gradually increasing the user load on the application to observe and check its speed.
+• ​Stress Testing: Suddenly increasing or decreasing the load on the application to check how it handles extreme fluctuations.
+• ​Volume Testing: Checking how much data the system is able to handle efficiently.
+
+​B. Security Testing
+​Evaluates how secure the application is against potential threats.
+• ​Authentication: Verifying whether users are valid or not.
+• ​Authorization / Access Control: Verifying specific permissions assigned to a valid user.
+
+​C. Recovery Testing
+• ​Objective: Verifying the system’s ability to change back from an abnormal state to a normal state after a crash or failure.
+
+​D. Compatibility Testing
+​Checking how the application functions across different operating environments.
+• ​Forward Compatibility.
+• ​Backward Compatibility.
+• ​Hardware Compatibility / Configuration Testing.
+
+​E. Installation Testing
+• ​Checks if installation screens are clear and easy to understand .
+• ​Validates screen navigation flow during setup.
+• ​Ensures process clarity (simple or not) and checks un-installation routines.
+
+​F. Sanitation / Garbage Testing
+• ​Rule: If any application provides extra, unrequested features or functionality beyond the initial project requirements, it is considered a bug
+
